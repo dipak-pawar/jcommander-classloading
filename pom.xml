@@ -46,21 +46,7 @@
         <dependency>
           <groupId>com.beust</groupId>
           <artifactId>jcommander</artifactId>
-          <version>1.72</version>
-          <scope>test</scope>
-        </dependency>
-      </dependencies>
-    </profile>
-    <profile>
-      <id>jcommander-testng-bundled</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>
-      <dependencies>
-        <dependency>
-          <groupId>com.beust</groupId>
-          <artifactId>jcommander</artifactId>
-          <version>1.66</version>
+          <version>1.73</version>
           <scope>test</scope>
         </dependency>
       </dependencies>
@@ -82,9 +68,9 @@
         <dependency>
           <groupId>com.beust</groupId>
           <artifactId>jcommander</artifactId>
-          <version>1.72</version>
+          <version>1.73</version>
           <scope>system</scope>
-          <systemPath>${project.basedir}/jcommander-1.72.jar</systemPath>
+          <systemPath>${project.basedir}/jcommander-patched-1.73.jar</systemPath>
         </dependency>
       </dependencies>
     </profile>
